@@ -1,4 +1,4 @@
-@DotnetApi_HostAddress = http://localhost:5164
+@DotnetApi_HostAddress = https://backendapinet.azurewebsites.net
 
 GET {{DotnetApi_HostAddress}}/weatherforecast/
 Accept: application/json

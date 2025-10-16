@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RodrigoGreff\\OneDrive - F11 TECNOLOGIA\\Área de Trabalho\\Daniel Klauck\\dotnet-api-test\\DotnetApi\\DotnetApi.csproj": {}
+    "/workspaces/dotnet-api-test/DotnetApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RodrigoGreff\\OneDrive - F11 TECNOLOGIA\\Área de Trabalho\\Daniel Klauck\\dotnet-api-test\\DotnetApi\\DotnetApi.csproj": {
+    "/workspaces/dotnet-api-test/DotnetApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RodrigoGreff\\OneDrive - F11 TECNOLOGIA\\Área de Trabalho\\Daniel Klauck\\dotnet-api-test\\DotnetApi\\DotnetApi.csproj",
+        "projectUniqueName": "/workspaces/dotnet-api-test/DotnetApi.csproj",
         "projectName": "DotnetApi",
-        "projectPath": "C:\\Users\\RodrigoGreff\\OneDrive - F11 TECNOLOGIA\\Área de Trabalho\\Daniel Klauck\\dotnet-api-test\\DotnetApi\\DotnetApi.csproj",
-        "packagesPath": "C:\\Users\\RodrigoGreff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RodrigoGreff\\OneDrive - F11 TECNOLOGIA\\Área de Trabalho\\Daniel Klauck\\dotnet-api-test\\DotnetApi\\obj\\",
+        "projectPath": "/workspaces/dotnet-api-test/DotnetApi.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/dotnet-api-test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RodrigoGreff\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[8.0.21, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -71,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.318/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

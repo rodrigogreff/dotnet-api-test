@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // 🧩 Configura a Connection String do Azure SQL
-var connectionString = "Server=tcp:sql-backend-server.database.windows.net,1433;Initial Catalog=WeatherForecast-db;Persist Security Info=False;User ID=SEU_USUARIO;Password=SUA_SENHA;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+var connectionString = "Server=tcp:sql-backend-server.database.windows.net,1433;Initial Catalog=WeatherForecast-db;Persist Security Info=False;User ID=adminsql;Password=E-tab123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
 // 🧠 Adiciona o contexto do banco
 builder.Services.AddDbContext<WeatherDbContext>(options =>

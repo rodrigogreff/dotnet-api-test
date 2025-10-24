@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/dotnet-api-test/DotnetApi.csproj": {}
+    "C:\\GitHub\\dotnet-api-test\\DotnetApi.csproj": {}
   },
   "projects": {
-    "/workspaces/dotnet-api-test/DotnetApi.csproj": {
+    "C:\\GitHub\\dotnet-api-test\\DotnetApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/dotnet-api-test/DotnetApi.csproj",
+        "projectUniqueName": "C:\\GitHub\\dotnet-api-test\\DotnetApi.csproj",
         "projectName": "DotnetApi",
-        "projectPath": "/workspaces/dotnet-api-test/DotnetApi.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/dotnet-api-test/obj/",
+        "projectPath": "C:\\GitHub\\dotnet-api-test\\DotnetApi.csproj",
+        "packagesPath": "C:\\Users\\RodrigoGreff\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\dotnet-api-test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\RodrigoGreff\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -43,6 +43,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.21, )"
@@ -75,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

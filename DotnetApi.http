@@ -1,4 +1,4 @@
-@DotnetApi_HostAddress = https://backendapinet.azurewebsites.net
+@DotnetApi_HostAddress = {{ApiBaseUrl}}
 
 GET {{DotnetApi_HostAddress}}/weatherforecast/
 Accept: application/json
